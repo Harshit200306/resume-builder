@@ -18,7 +18,9 @@ public class CorsConfig {
                 new CorsConfiguration();
 
         configuration.setAllowedOrigins(
-                List.of("http://localhost:5173")
+                List.of("http://localhost:5173",
+                        "https://resume-frontend-beryl.vercel.app"
+                )
         );
 
         configuration.setAllowedMethods(
