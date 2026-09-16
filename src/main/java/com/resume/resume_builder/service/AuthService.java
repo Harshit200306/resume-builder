@@ -76,7 +76,7 @@ public class AuthService {
 
         return new AuthResponse(
                 token,
-                "Login successful"
-        );
-    }
+                "Login successful",
+                user.getName()
+        );    }
 }
